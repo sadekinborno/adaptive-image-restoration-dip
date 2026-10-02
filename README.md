@@ -133,8 +133,8 @@ $$\mathcal{V}_{\text{noise}} = \text{Percentile}_{10}\left( \{\text{Var}(\mathca
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/<your-username>/dip-waste-restoration.git
-cd dip-waste-restoration
+git clone https://github.com/sadekinborno/adaptive-image-restoration-dip.git
+cd adaptive-image-restoration-dip
 pip install -r requirements.txt
 ```
 
