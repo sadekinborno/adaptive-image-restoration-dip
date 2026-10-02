@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  restoration-pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: dip-waste-restoration:latest
+    container_name: dip_restoration_service
+    volumes:
+      # Mount your local input images folder and output destination
+      - ./data/degraded:/app/input:ro
+      - ./data/docker_restored:/app/output:rw
+    command: ["--input", "/app/input", "--output", "/app/output", "--save-edges"]
+    restart: "no"

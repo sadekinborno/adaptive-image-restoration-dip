@@ -1,0 +1,64 @@
+# ==============================================================================
+# Git Ignore Configuration
+# Adaptive Image Quality Assessment and Restoration System (DIP Project)
+# ==============================================================================
+
+# Datasets and Runtime Data
+data/
+dataset/
+datasets/
+
+# Python Caches & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# LaTeX Build Outputs
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.nav
+*.snm
+*.vrb
+
+# IDE and OS Metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.gemini/
+.antigravity/
+
+# Temporary / Scratch Files
+scratch/
+tmp/

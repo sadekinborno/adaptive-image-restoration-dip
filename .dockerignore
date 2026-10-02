@@ -1,0 +1,27 @@
+# Ignore datasets and data directories
+datasets/
+dataset/
+data/
+
+# Ignore documentation and build outputs
+docs/
+*.pdf
+*.tex
+
+# Python cache & temp files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Git & IDE configs
+.git/
+.gitignore
+.idea/
+.vscode/
+.gemini/
+.antigravity/
